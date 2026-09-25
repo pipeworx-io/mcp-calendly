@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-calendly",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Calendly MCP Pack — wraps the Calendly API v2 for scheduling data.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-25c4b6f8a5b6aa507291c522b21b6a4bbf897f56ede3958db3c118bda31ae98c",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-e2736bbef9dab1225475f109ea0c8e8f9b44cd5871e0d5de4124a8a002b6e1a6",
+    "sourceCommit": "babdd280d475dceddecc9ebf8f2a661712781a81"
   }
 }
