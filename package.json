@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-calendly",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Calendly MCP Pack — wraps the Calendly API v2 for scheduling data.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "calendly",
     "gatewaySlug": "calendly",
-    "sourceHash": "v1-c6bf0e2bf87e437e0c7daf476f6f51fd9e7ea84b03fa1c940dbf9fe331932a4b",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-5a2df8d247b2eaefaf661cf525253b469c105e19efac900bcda835a722866757",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
