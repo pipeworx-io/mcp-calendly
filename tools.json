@@ -1,6 +1,6 @@
 [
   {
-    "name": "current_user",
+    "name": "calendly_current_user",
     "description": "Get the current Calendly user for the supplied token. Returns the user URI and organization URI — call this FIRST, since list_scheduled_events and list_event_types require a user or organization URI.",
     "inputSchema": {
       "type": "object",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "name": "get_event",
+    "name": "calendly_get_event",
     "description": "Get a single scheduled event by its UUID (the last path segment of an event URI). Returns full event details including name, times, status, location, and event membership.",
     "inputSchema": {
       "type": "object",

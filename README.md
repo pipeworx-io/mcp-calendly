@@ -1,16 +1,16 @@
 # mcp-calendly
 
-Calendly MCP Pack — wraps the Calendly API v2 for scheduling data.
+Unofficial Calendly MCP Pack — wraps the Calendly API v2 for scheduling data.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1863+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `current_user` | Get the current Calendly user for the supplied token. Returns the user URI and organization URI — call this FIRST, since list_scheduled_events and list_event_types require a user or organization URI. |
+| `calendly_current_user` | Get the current Calendly user for the supplied token. Returns the user URI and organization URI — call this FIRST, since list_scheduled_events and list_event_types require a user or organization URI. |
 | `list_scheduled_events` | List scheduled meetings (events). Requires a user URI OR an organization URI (get them from current_user). Filter by status, time window, and paginate. Returns event URIs/UUIDs, names, start/end times, status, and locations. |
-| `get_event` | Get a single scheduled event by its UUID (the last path segment of an event URI). Returns full event details including name, times, status, location, and event membership. |
+| `calendly_get_event` | Get a single scheduled event by its UUID (the last path segment of an event URI). Returns full event details including name, times, status, location, and event membership. |
 | `list_invitees` | List the invitees of a scheduled event by event UUID. Returns invitee names, emails, status (active/canceled), timezone, and answers to booking questions. |
 | `list_event_types` | List bookable event types (meeting templates). Requires a user URI OR an organization URI (get them from current_user). Returns event type URIs, names, durations, scheduling URLs, and active state. |
 
@@ -58,7 +58,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1863+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
